@@ -5,5 +5,6 @@ $(document).ready(function(){
 		$.post('/colors', function(data){
 			$('.result').html(data);
 		});
+		console.log(data.inspect)
 	});
 });
